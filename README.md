@@ -6,5 +6,7 @@
 
 客户端是采用C\#来开发的，需要安装.net 4.0 framework;
 
+总体而言有如下四个部分组成：
+
 ![](/assets/folders.png)
 
