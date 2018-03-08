@@ -14,9 +14,7 @@ Mysql的安装分为：Mysql数据库的部署；Navicat For Mysql的安装和�
 
 ![](/assets/mysql_install.png)
 
-* 用Navicat For MySQL导入init.sql到数据库中，完成初始化数据库工作
-
-
+* 用Navicat For MySQL导入init.sql到数据库中，完成初始化数据库工作。
 
 ### 2.Navicat For Mysql的安装
 
