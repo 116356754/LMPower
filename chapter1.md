@@ -14,9 +14,19 @@ Mysql的安装分为：Mysql数据库的部署；Navicat For Mysql的安装和�
 
 ![](/assets/mysql_install.png)
 
-* 用Navicat For MySQL导入init.sql到数据库中，完成初始化数据库工作。
+* 用Navicat For MySQL，首先创建collector数据库，然后点击右键菜单的“运行SQL文件"，导入init.sql到数据库中，完成初始化数据库工作。
 
-### 2.Navicat For Mysql的安装
+![](/assets/mysql_restore.png)
+
+### 2.ammeter\_real分区
+
+在数据库中ammeter\_real表存储的是实时采集过来的数据，所以表的数据量比较大，可以对该表进行分区。利用Navicat工具打开collector数据库，多次执行call `Set_Partition('collector', 'ammeter_real');`该语句。
+
+![](/assets/real_partion.png)
+
+最后检查ammeter\_real表中的分割区的名称大于当前的日期![](/assets/mysql_partion_view.png)
+
+
 
 
 
