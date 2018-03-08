@@ -70,11 +70,7 @@ nssm install collector_ui
 
 在Path 中选择你安装的node.exe所在位置，Startup directory 选择你的node应用的目录，Argument 输入你的启动文件，例如在D:/work/wangky/collector\_ui运行bin/www （在Startup directory目录执行node ./bin/www ）：
 
-
-
 点击Install Service：
-
-
 
 之后运行：
 
